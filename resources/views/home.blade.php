@@ -1,126 +1,133 @@
 <x-client-layout title="AutoPartsX - Quality Auto Parts Online">
   <!-- Hero Section (Jumia Style) -->
-  <div class=" px-4 sm:px-6 lg:px-14 py-4">
-    <div class="grid grid-cols-4 gap-4">
-      <!-- Category Sidebar (Left) -->
-      <div class="lg:col-span-1 hidden lg:block">
-        <div class="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
-          <div class="bg-blue-600 px-4 py-3">
-            <h3 class="text-white font-semibold text-sm flex items-center">
-              <i class="fas fa-bars mr-2"></i>Categories
-            </h3>
-          </div>
-          <div class="divide-y divide-slate-100">
-            <a href="/products?category=brakes" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-red-100 rounded flex items-center justify-center">
-                  <i class="fas fa-car-crash text-red-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Brakes</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products?category=engine" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-orange-100 rounded flex items-center justify-center">
-                  <i class="fas fa-cog text-orange-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Engine</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products?category=electrical" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-yellow-100 rounded flex items-center justify-center">
-                  <i class="fas fa-bolt text-yellow-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Electrical</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products?category=suspension" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-blue-100 rounded flex items-center justify-center">
-                  <i class="fas fa-compress-arrows-alt text-blue-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Suspension</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products?category=wheels" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-slate-100 rounded flex items-center justify-center">
-                  <i class="fas fa-circle-notch text-slate-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Wheels</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products?category=exhaust" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
-                  <i class="fas fa-smoking text-gray-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Exhaust</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products?category=body" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-indigo-100 rounded flex items-center justify-center">
-                  <i class="fas fa-car-side text-indigo-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Body Parts</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-            <a href="/products" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 bg-emerald-100 rounded flex items-center justify-center">
-                  <i class="fas fa-th-large text-emerald-600 text-sm"></i>
-                </div>
-                <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">View All</span>
-              </div>
-              <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Main Banner Carousel (Right) -->
-      <div class="col-span-3">
-        <div class="grid grid-cols-3 gap-4">
-          <!-- Main Carousel Banner -->
-          <div class="col-span-3 relative bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
-            <div class="relative h-[400px] bg-gradient-to-r from-emerald-600 via-blue-600 to-indigo-600">
-              <div class="absolute inset-0 flex items-center justify-center text-white p-8">
-                <div class="text-center">
-                  <h1 class="text-4xl md:text-5xl font-bold mb-4">Premium Auto Parts</h1>
-                  <p class="text-xl mb-6 text-white/90">Quality parts for every vehicle. Fast shipping, expert support.</p>
-                  <a href="/products" class="inline-block bg-white text-emerald-600 hover:bg-emerald-50 px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg">
-                    Shop Now
-                  </a>
-                </div>
-              </div>
-              <!-- Carousel Navigation -->
-              <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-2 rounded-full transition-colors">
-                <i class="fas fa-chevron-left"></i>
-              </button>
-              <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-2 rounded-full transition-colors">
-                <i class="fas fa-chevron-right"></i>
-              </button>
-              <!-- Carousel Indicators -->
-              <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                <button class="w-2 h-2 bg-white rounded-full"></button>
-                <button class="w-2 h-2 bg-white/50 rounded-full"></button>
-                <button class="w-2 h-2 bg-white/50 rounded-full"></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+   <div class="bg-no-repeat bg-cover bg-center" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
+    <div class=""></div>
+     <div class=" px-4 sm:px-6 lg:px-14 py-4">
+       <div class="grid grid-cols-4 gap-4">
+         <!-- Category Sidebar (Left) -->
+         <div class="lg:col-span-1 hidden lg:block relative z-10">
+           <div class="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden ">
+             <div class="bg-blue-600 px-4 py-3">
+               <h3 class="text-white font-semibold text-sm flex items-center">
+                 <i class="fas fa-bars mr-2"></i>Categories
+               </h3>
+             </div>
+             <div class="divide-y divide-slate-100">
+               <a href="/products?category=brakes" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-car-crash text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Brakes</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products?category=engine" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-cog text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Engine</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products?category=electrical" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-bolt text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Electrical</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products?category=suspension" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-compress-arrows-alt text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Suspension</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products?category=wheels" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-circle-notch text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Wheels</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products?category=exhaust" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-smoking text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Exhaust</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products?category=body" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-car-side text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">Body Parts</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+               <a href="/products" class="flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors group">
+                 <div class="flex items-center space-x-3">
+                   <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
+                     <i class="fas fa-th-large text-slate-700 text-sm"></i>
+                   </div>
+                   <span class="text-sm text-slate-700 group-hover:text-emerald-600 font-medium">View All</span>
+                 </div>
+                 <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:text-emerald-600"></i>
+               </a>
+             </div>
+           </div>
+         </div>
+   
+         <!-- Main Banner Carousel (Right) -->
+         <div class="col-span-3">
+           <div class="relative bg-white rounded-lg shadow-sm border overflow-hidden">
+             <!-- Background Image Container -->
+             <div class="relative h-[400px] bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
+               <!-- Dark Overlay for Better Text Readability -->
+               <div class="absolute inset-0 bg-black/25"></div>
+               
+               <!-- Content -->
+               <div class="relative z-10 h-full flex items-center justify-center text-white p-8">
+                 <div class="text-center max-w-2xl">
+                   <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">Premium Auto Parts</h1>
+                   <p class="text-lg md:text-xl mb-6 text-white/95 drop-shadow-md">Quality parts for every vehicle. Fast shipping, expert support.</p>
+                   <a href="/products" class="inline-block bg-white text-emerald-600 hover:bg-emerald-50 px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl transform hover:scale-105">
+                     Shop Now
+                   </a>
+                 </div>
+               </div>
+               
+               <!-- Carousel Navigation -->
+               <button class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-3 rounded-full transition-colors shadow-lg hover:shadow-xl">
+                 <i class="fas fa-chevron-left"></i>
+               </button>
+               <button class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-3 rounded-full transition-colors shadow-lg hover:shadow-xl">
+                 <i class="fas fa-chevron-right"></i>
+               </button>
+               
+               <!-- Carousel Indicators -->
+               <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20 flex space-x-2">
+                 <button class="w-3 h-3 bg-white rounded-full shadow-lg transition-all hover:scale-110"></button>
+                 <button class="w-3 h-3 bg-white/50 rounded-full shadow-lg transition-all hover:scale-110"></button>
+                 <button class="w-3 h-3 bg-white/50 rounded-full shadow-lg transition-all hover:scale-110"></button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
 
   <!-- Today's Deals Section (Amazon Style) -->
   <div class="bg-white border-b border-slate-200">
