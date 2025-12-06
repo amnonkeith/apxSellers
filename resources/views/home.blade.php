@@ -1,6 +1,6 @@
 <x-client-layout title="AutoPartsX - Quality Auto Parts Online">
   <!-- Hero Section (Jumia Style) -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+  <div class=" px-4 sm:px-6 lg:px-14 py-4">
     <div class="grid grid-cols-4 gap-4">
       <!-- Category Sidebar (Left) -->
       <div class="lg:col-span-1 hidden lg:block">
@@ -124,7 +124,7 @@
 
   <!-- Today's Deals Section (Amazon Style) -->
   <div class="bg-white border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="px-4 sm:px-6 lg:px-14 py-6">
       <div class="flex items-center justify-between mb-4">
         <div class="flex items-center space-x-3">
           <h2 class="text-2xl font-bold text-slate-900">Today's Deals</h2>
@@ -240,7 +240,7 @@
 
   <!-- Best Sellers in Auto Parts (Amazon Style) -->
   <div class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">Best Sellers in Auto Parts</h2>
         <a href="/products?sort=bestsellers" class="text-emerald-600 hover:text-emerald-700 text-sm font-semibold">
@@ -329,7 +329,7 @@
 
   <!-- New Arrivals (Amazon Style) -->
   <div class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">New Arrivals in Auto Parts</h2>
         <a href="/products?sort=newest" class="text-emerald-600 hover:text-emerald-700 text-sm font-semibold">
@@ -416,7 +416,7 @@
 
   <!-- Customers who viewed this item also viewed (Amazon Style) -->
   <div class="bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">Customers who viewed this item also viewed</h2>
         <a href="/products" class="text-emerald-600 hover:text-emerald-700 text-sm font-semibold">
@@ -503,7 +503,7 @@
 
   <!-- Frequently Bought Together (Amazon Style) -->
   <div class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="px-4 sm:px-6 lg:px-14 py-8">
       <h2 class="text-2xl font-bold text-slate-900 mb-6">Frequently Bought Together</h2>
       <div class="bg-slate-50 rounded-lg p-6 border border-slate-200">
         <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
@@ -554,7 +554,7 @@
 
   <!-- Service Features (Amazon Style) -->
   <div class="bg-slate-50 border-t border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div class="bg-white p-6 rounded-lg border border-slate-200">
           <div class="flex items-center space-x-3 mb-2">

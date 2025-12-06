@@ -1,6 +1,6 @@
 <!-- Client Navigation Bar -->
 <nav class="fixed top-0 left-0 right-0 bg-blue-600 border-b border-slate-200 shadow-sm z-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="px-4 sm:px-6 lg:px-10">
     <div class="flex justify-between items-center h-16">
       <!-- Logo -->
       <div class="flex items-center space-x-8">
