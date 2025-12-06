@@ -1,8 +1,7 @@
 <x-client-layout title="AutoPartsX - Quality Auto Parts Online">
   <!-- Hero Section (Jumia Style) -->
-   <div class="bg-no-repeat bg-cover bg-center h-[70vh]" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
-    <div class=""></div>
-     <div class=" px-4 sm:px-6 lg:px-14 py-4">
+   <div class="bg-no-repeat bg-cover bg-center h-[76vh]" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
+     <div class=" px-4 sm:px-6 lg:px-14 py-8">
        <div class="grid grid-cols-4 gap-4">
          <!-- Category Sidebar (Left) -->
          <div class="lg:col-span-1 hidden lg:block relative z-10">

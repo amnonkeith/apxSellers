@@ -11,7 +11,7 @@
   <body class="bg-slate-50">
     <x-client-navbar />
     
-    <main class="min-h-screen pt-20">
+    <main class="min-h-screen pt-10">
       {{ $slot }}
     </main>
 
