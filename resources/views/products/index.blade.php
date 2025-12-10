@@ -110,7 +110,7 @@
           </div>
 
           <!-- Clear Filters -->
-          <button class="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
+          <button class="w-full bg-linear-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
             <i class="fas fa-redo mr-2"></i>Clear Filters
           </button>
         </div>

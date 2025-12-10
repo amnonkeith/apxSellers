@@ -1,28 +1,29 @@
 <x-client-layout title="Limited Deals - AutoPartsX">
   <!-- Hero Section -->
   <div class="bg-gradient-to-r from-rose-600 via-rose-500 to-amber-400 text-white py-16 relative">
-    <div class="px-4 sm:px-6 lg:px-12 flex flex-col items-center text-center">
-      <div class="mb-5">
+    <div class="px-4 sm:px-6 lg:px-12">
+      <div class="mb-5 flex gap-4 items-center">
         <span class="inline-block text-xs font-semibold bg-yellow-400 text-rose-700 px-4 py-1 rounded-full shadow-lg tracking-wide uppercase letter-spacing-[.08em]">
           <i class="fas fa-bolt mr-1 text-rose-700 animate-pulse"></i> Flash Deal
         </span>
-      </div>
-      <h1 class="text-4xl md:text-5xl font-extrabold mb-3 drop-shadow-lg text-white">Limited Time Auto Parts Sale</h1>
-      <p class="text-lg md:text-xl text-rose-50 font-medium mb-8 max-w-2xl mx-auto">Save big on select auto parts. <span class="font-semibold underline decoration-yellow-300 underline-offset-4">Hurry</span>—these deals won't last!</p>
-      <div class="flex justify-center items-stretch gap-6">
-        <div class="flex items-center bg-yellow-200/20 shadow-lg rounded-xl px-6 py-4 font-mono text-xl font-semibold tracking-wide space-x-3 backdrop-blur-sm border border-yellow-200/30">
-          <i class="fas fa-bolt text-amber-400 animate-pulse"></i>
-          <span class="text-yellow-50"><span class="tabular-nums">03</span><span class="mx-0.5 font-normal">:</span><span class="tabular-nums">59</span><span class="mx-0.5 font-normal">:</span><span class="tabular-nums">12</span></span>
-          <span class="ml-2 inline-block bg-rose-500 text-white text-xs px-2 py-0.5 rounded-full font-bold tracking-wide">LEFT</span>
+        <div class="flex justify-center items-stretch gap-6">
+          <div class="flex items-center bg-yellow-200/20 shadow-lg rounded-xl px-6 py-3 font-mono text-xl font-semibold tracking-wide space-x-3 backdrop-blur-sm border border-yellow-200/30">
+            <i class="fas fa-bolt text-amber-400 animate-pulse"></i>
+            <span class="text-yellow-50"><span class="tabular-nums">03</span><span class="mx-0.5 font-normal">:</span><span class="tabular-nums">59</span><span class="mx-0.5 font-normal">:</span><span class="tabular-nums">12</span></span>
+            <span class="ml-2 inline-block bg-rose-500 text-white text-xs px-2 py-0.5 rounded-full font-bold tracking-wide">LEFT</span>
+          </div>
         </div>
       </div>
-      <div class="mt-8 flex justify-center">
-        <span class="inline-block bg-rose-600/70 rounded-full px-5 py-2 text-base md:text-lg font-semibold tracking-wider shadow-lg border border-white/20 animate-pulse-slow">
-          <i class="fas fa-fire mr-1"></i> Hot Offers End Soon!
-        </span>
+      <div class="flex justify-between items-center mt-8 relative">
+        <div>
+          <h1 class="text-5xl md:text-6xl font-extrabold mb-3 drop-shadow-lg text-white">Limited Time Auto Parts Sale</h1>
+          <p class="text-lg md:text-xl text-rose-50 font-medium mb-8 ">Save big on select auto parts. <span class="font-semibold underline decoration-yellow-300 underline-offset-4">Hurry</span>—these deals won't last!</p>
+        </div>
+      </div>
+      <div class="max-w-xl absolute right-0 top-5 hidden md:block">
+        <img src="{{ asset('assets/car-accessories-with-copy-space.png') }}" alt="Car accessories with copy space" class="w-full h-72">
       </div>
     </div>
-    
   </div>
 
   <!-- Limited Deals Content -->
