@@ -1,9 +1,15 @@
 <x-client-layout title="New Arrivals - AutoPartsX">
   <!-- Hero Section -->
-  <div class="bg-slate-50 border-b border-slate-200 py-12">
-    <div class="px-4 sm:px-6 lg:px-12">
-      <h1 class="text-4xl font-bold mb-4 text-slate-900">New Arrivals in Auto Parts</h1>
-      <p class="text-xl text-slate-600">Discover the latest additions to our catalog</p>
+  <div class="bg-gradient-to-r from-blue-100 via-blue-200 to-cyan-100 border-b h-[35vh] flex flex-col justify-center border-blue-200 py-14 relative shadow-sm">
+    <div class="px-4 sm:px-6 lg:px-14 relative z-10">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-sm tracking-tight flex items-center">
+        <i class="fas fa-badge text-cyan-400 mr-3 animate-bounce"></i>
+        New Arrivals in Auto Parts
+      </h1>
+      <p class="text-xl md:text-2xl text-blue-700 font-medium">Discover the latest additions to our catalog</p>
+    </div>
+    <div class="absolute right-0 top-2 w-72  md:w-96 h-40 md:h-52 opacity-90 pointer-events-none select-none z-0">
+      <img src="{{ asset('assets/arrival.png') }}" alt="New arrivals banner" class="w-full h-full object-contain scale-110 drop-shadow-xl">
     </div>
   </div>
 

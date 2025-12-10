@@ -1,9 +1,17 @@
 <x-client-layout title="Products - AutoPartsX">
   <!-- Hero Section -->
-  <div class="bg-slate-50 border-b border-slate-200 py-12">
-    <div class="px-4 sm:px-6 lg:px-12">
-      <h1 class="text-4xl font-bold mb-4 text-slate-900">All Products</h1>
-      <p class="text-xl text-slate-600">Browse our complete catalog of auto parts</p>
+  <div class="bg-gradient-to-r from-blue-100 via-blue-50 to-emerald-50 border-b border-blue-200/70 h-[35vh] py-12 flex flex-col justify-center relative shadow-lg">
+    <div class="px-4 sm:px-6 lg:px-14 relative z-10">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-sm tracking-tight">
+        <i class="fas fa-layer-group text-blue-400 mr-3 animate-pulse"></i>
+        All Products
+      </h1>
+      <p class="text-xl md:text-2xl text-blue-700/80 font-medium/90">
+        <span>Browse our complete catalog of auto parts</span>
+      </p>
+    </div>
+    <div class="absolute right-0 inset-y-0 w-80 md:w-92 h-52 md:h-56  pointer-events-none select-none z-0 overflow-hidden">
+      <img src="{{ asset('assets/products.png') }}" alt="All products assortment" class="w-full h-full object-cover scale-110 drop-shadow-xl">
     </div>
   </div>
 

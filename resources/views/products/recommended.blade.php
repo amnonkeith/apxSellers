@@ -1,9 +1,22 @@
 <x-client-layout title="Recommended Products - AutoPartsX">
   <!-- Hero Section -->
-  <div class="bg-slate-50 border-b border-slate-200 py-12">
-    <div class="px-4 sm:px-6 lg:px-12">
-      <h1 class="text-4xl font-bold mb-4 text-slate-900">Recommended for You</h1>
-      <p class="text-xl text-slate-600">Products other customers viewed and purchased</p>
+  <div class="bg-gradient-to-r from-blue-100 via-blue-50 to-emerald-50 border-b border-blue-200/70 py-14 shadow-sm">
+    <div class="px-4 sm:px-6 lg:px-12 relative flex flex-col items-start">
+      <div class="flex items-center gap-4 mb-2">
+        <span class="inline-block rounded-full bg-blue-500/10 px-3 py-1 text-blue-600 font-semibold text-xs drop-shadow">
+          <i class="fas fa-thumbs-up mr-1 text-blue-500"></i>
+          Recommended
+        </span>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-3 text-blue-900 tracking-tight drop-shadow">
+        Recommended for You
+      </h1>
+      <p class="text-lg md:text-xl text-blue-700/80 font-medium mb-1">
+        Products other customers viewed and purchased
+      </p>
+      <div class="absolute right-0 top-0 opacity-20 pointer-events-none select-none hidden md:block">
+        <img src="{{ asset('assets/thumbs-up-recommend.webp') }}" alt="" class="w-56 h-28 object-contain">
+      </div>
     </div>
   </div>
 
