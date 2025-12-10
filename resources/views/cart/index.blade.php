@@ -1,8 +1,110 @@
 <x-client-layout title="Shopping Cart - AutoPartsX">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    <h1 class="text-3xl font-bold text-slate-900 mb-8">Shopping Cart</h1>
+    <h1 class="text-3xl font-bold text-slate-900 mb-6">Shopping Cart</h1>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <!-- Filters and Search Sidebar (Left) -->
+      <div class="lg:col-span-1">
+        <div class="bg-white rounded-xl border border-slate-200 p-6 sticky top-24 space-y-6">
+          <!-- Search -->
+          <div>
+            <label class="block text-sm font-semibold text-slate-700 mb-2">
+              <i class="fas fa-search mr-2 text-blue-600"></i>Search Cart
+            </label>
+            <input type="text" placeholder="Search items..." 
+                   class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          </div>
+
+          <!-- Filter by Category -->
+          <div>
+            <h3 class="text-sm font-semibold text-slate-900 mb-3 flex items-center">
+              <i class="fas fa-filter mr-2 text-blue-600"></i>Category
+            </h3>
+            <div class="space-y-2">
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">All Categories</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Brakes</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Electrical</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Engine</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Suspension</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Filter by Condition -->
+          <div>
+            <h3 class="text-sm font-semibold text-slate-900 mb-3 flex items-center">
+              <i class="fas fa-tag mr-2 text-blue-600"></i>Condition
+            </h3>
+            <div class="space-y-2">
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">All Conditions</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">New</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Used</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Refurbished</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Filter by Price -->
+          <div>
+            <h3 class="text-sm font-semibold text-slate-900 mb-3 flex items-center">
+              <i class="fas fa-dollar-sign mr-2 text-blue-600"></i>Price Range
+            </h3>
+            <div class="space-y-2">
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">All Prices</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">Under $50</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">$50 - $100</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">$100 - $200</span>
+              </label>
+              <label class="flex items-center cursor-pointer hover:text-blue-600">
+                <input type="checkbox" class="mr-2 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                <span class="text-sm text-slate-700">$200+</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Clear Filters -->
+          <button class="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
+            <i class="fas fa-redo mr-2"></i>Clear Filters
+          </button>
+        </div>
+      </div>
+
       <!-- Cart Items -->
       <div class="lg:col-span-2 space-y-4">
         <!-- Cart Item -->
@@ -87,7 +189,7 @@
 
       <!-- Order Summary -->
       <div class="lg:col-span-1">
-        <div class="bg-white rounded-xl border border-slate-200 p-6 sticky top-24">
+        <div class="bg-white rounded-xl border border-slate-200 p-6 w-92 sticky top-24">
           <h2 class="text-xl font-bold text-slate-900 mb-6">Order Summary</h2>
           
           <div class="space-y-4 mb-6">

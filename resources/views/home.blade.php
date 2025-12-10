@@ -1,6 +1,6 @@
 <x-client-layout title="AutoPartsX - Quality Auto Parts Online">
   <!-- Hero Section (Jumia Style) -->
-   <div id="heroBackground" class="bg-no-repeat bg-cover bg-center h-[76vh] transition-all duration-1000 ease-in-out" style="background-image: url('{{ asset('assets/Screenshot 2025-12-09 133748.png') }}');">
+   <div id="heroBackground" class="bg-no-repeat bg-cover bg-center h-[76vh] transition-all duration-1000 ease-in-out" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
      <div class=" px-4 sm:px-6 lg:px-10 py-8">
        <div class="grid grid-cols-4 gap-4">
          <!-- Category Sidebar (Left) -->
@@ -95,8 +95,8 @@
              <!-- Carousel Container -->
              <div id="bannerCarousel" class="relative h-[400px] overflow-hidden">
                <!-- Slide 1 -->
-               <div class="carousel-slide absolute inset-0 transition-transform duration-1000 ease-in-out transform translate-x-0" data-slide="0" data-bg-image="{{ asset('assets/Screenshot 2025-12-09 133748.png') }}">
-                 <div class="relative h-full bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/Screenshot 2025-12-09 133748.png') }}');">
+               <div class="carousel-slide absolute inset-0 transition-transform duration-1000 ease-in-out transform translate-x-0" data-slide="0" data-bg-image="{{ asset('assets/Screenshot 2025-12-06 191255.png') }}">
+                 <div class="relative h-full bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
                    <!-- Dark Overlay for Better Text Readability -->
                    <div class="absolute inset-0 bg-black/30"></div>
                    
@@ -114,8 +114,8 @@
                </div>
                
                <!-- Slide 2 -->
-               <div class="carousel-slide absolute inset-0 transition-transform duration-1000 ease-in-out transform translate-x-full" data-slide="1" data-bg-image="{{ asset('assets/Screenshot 2025-12-06 191255.png') }}">
-                 <div class="relative h-full bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/Screenshot 2025-12-06 191255.png') }}');">
+               <div class="carousel-slide absolute inset-0 transition-transform duration-1000 ease-in-out transform translate-x-full" data-slide="1" data-bg-image="{{ asset('assets/Screenshot 2025-12-09 133748.png') }}">
+                 <div class="relative h-full bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/Screenshot 2025-12-09 133748.png') }}');">
                    <!-- Dark Overlay for Better Text Readability -->
                    <div class="absolute inset-0 bg-black/30"></div>
                    
@@ -180,7 +180,7 @@
           <h2 class="text-2xl font-bold text-slate-900">Today's Deals</h2>
           <span class="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded">Limited Time</span>
         </div>
-        <a href="/products?deals=1" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/deals" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           See all deals <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>
@@ -293,7 +293,7 @@
     <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">Best Sellers in Auto Parts</h2>
-        <a href="/products?sort=bestsellers" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/products/bestsellers" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           View more <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>
@@ -382,7 +382,7 @@
     <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">New Arrivals in Auto Parts</h2>
-        <a href="/products?sort=newest" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/products/new-arrivals" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           View more <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>
@@ -469,7 +469,7 @@
     <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">Customers who viewed this item also viewed</h2>
-        <a href="/products" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/products/recommended" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           View more <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>

@@ -11,6 +11,22 @@ Route::get('/products', function () {
     return view('products.index');
 });
 
+Route::get('/deals', function () {
+    return view('deals.index');
+});
+
+Route::get('/products/bestsellers', function () {
+    return view('products.bestsellers');
+});
+
+Route::get('/products/new-arrivals', function () {
+    return view('products.new-arrivals');
+});
+
+Route::get('/products/recommended', function () {
+    return view('products.recommended');
+});
+
 Route::get('/products/{id}', function ($id) {
     // In a real application, you would fetch the product from database
     $product = [
