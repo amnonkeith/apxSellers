@@ -1,6 +1,6 @@
 <x-client-layout title="Best Sellers - AutoPartsX">
   <!-- Hero Section -->
-  <div class="bg-gradient-to-r from-yellow-300 via-yellow-400 to-amber-500 border-b border-amber-300 h-[35vh] py-12 flex flex-col justify-center relative shadow-lg">
+  <div class="bg-linear-to-r from-yellow-300 via-yellow-400 to-amber-500 border-b border-amber-300 h-[35vh] py-12 flex flex-col justify-center relative shadow-lg">
     <div class="px-4 sm:px-6 lg:px-14 relative z-10">
       <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-white drop-shadow-sm tracking-tight">
         <i class="fas fa-star text-yellow-400 mr-3 animate-pulse"></i>

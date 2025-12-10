@@ -104,7 +104,7 @@
     <!-- Action Buttons -->
     <div class="flex space-x-2">
       @if($stock > 0)
-        <button onclick="addToCart({{ $id }})" class="flex-1 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-4 py-3 rounded-lg text-sm font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-md hover:shadow-lg">
+        <button onclick="addToCart({{ $id }})" class="flex-1 bg-linear-to-r from-emerald-500 to-emerald-600 text-white px-4 py-3 rounded-lg text-sm font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-md hover:shadow-lg">
           <i class="fas fa-shopping-cart mr-2"></i>Add to Cart
         </button>
       @else

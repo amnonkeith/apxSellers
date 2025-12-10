@@ -1,6 +1,6 @@
 <x-client-layout title="Limited Deals - AutoPartsX">
   <!-- Hero Section -->
-  <div class="bg-gradient-to-r from-rose-600 via-rose-500 to-amber-400 text-white py-16 relative">
+  <div class="bg-linear-to-r from-rose-600 via-rose-500 to-amber-400 text-white py-16 relative">
     <div class="px-4 sm:px-6 lg:px-12">
       <div class="mb-5 flex gap-4 items-center">
         <span class="inline-block text-xs font-semibold bg-yellow-400 text-rose-700 px-4 py-1 rounded-full shadow-lg tracking-wide uppercase letter-spacing-[.08em]">
@@ -154,7 +154,7 @@
           </div>
 
           <!-- Clear Filters -->
-          <button class="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
+          <button class="w-full bg-linear-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
             <i class="fas fa-redo mr-2"></i>Clear Filters
           </button>
         </div>
@@ -212,7 +212,7 @@
                   </div>
                 </div>
               </div>
-              <button class="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
+              <button class="w-full bg-linear-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
                 <i class="fas fa-shopping-cart mr-2"></i>Claim Deal
               </button>
             </div>
@@ -466,7 +466,7 @@
         <button class="px-4 py-2 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors">
           <i class="fas fa-chevron-left"></i>
         </button>
-        <button class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg">1</button>
+        <button class="px-4 py-2 bg-linear-to-r from-blue-500 to-blue-600 text-white rounded-lg">1</button>
         <button class="px-4 py-2 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors">2</button>
         <button class="px-4 py-2 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors">3</button>
         <span class="px-4 py-2 text-slate-500">...</span>

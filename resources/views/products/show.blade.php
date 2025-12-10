@@ -105,7 +105,7 @@
         <!-- Action Buttons -->
         <div class="space-y-3 mb-6">
           @if(($product['stock'] ?? 0) > 0)
-            <button onclick="addToCart({{ $product['id'] ?? 1 }})" class="w-full bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button onclick="addToCart({{ $product['id'] ?? 1 }})" class="w-full bg-linear-to-r from-emerald-500 to-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
               <i class="fas fa-shopping-cart mr-2"></i>Add to Cart
             </button>
           @else

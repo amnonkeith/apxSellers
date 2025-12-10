@@ -99,7 +99,7 @@
           </div>
 
           <!-- Clear Filters -->
-          <button class="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
+          <button class="w-full bg-linear-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
             <i class="fas fa-redo mr-2"></i>Clear Filters
           </button>
         </div>
@@ -212,7 +212,7 @@
             </div>
           </div>
 
-          <a href="/checkout" class="block w-full bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl text-center mb-4">
+          <a href="/checkout" class="block w-full bg-linear-to-r from-emerald-500 to-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl text-center mb-4">
             <i class="fas fa-lock mr-2"></i>Proceed to Checkout
           </a>
 

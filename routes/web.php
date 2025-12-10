@@ -48,3 +48,55 @@ Route::get('/cart', function () {
 Route::get('/checkout', function () {
     return view('checkout.index');
 });
+
+Route::get('/account', function () {
+    return view('account.index');
+});
+
+Route::get('/orders', function () {
+    return view('account.orders');
+});
+
+Route::get('/orders/pending', function () {
+    return view('account.orders.pending');
+});
+
+Route::get('/orders/shipped', function () {
+    return view('account.orders.shipped');
+});
+
+Route::get('/orders/delivered', function () {
+    return view('account.orders.delivered');
+});
+
+Route::get('/orders/cancelled', function () {
+    return view('account.orders.cancelled');
+});
+
+Route::get('/orders/{id}', function ($id) {
+    return view('account.orders.show', ['orderId' => $id]);
+});
+
+Route::get('/orders/{id}/track', function ($id) {
+    return view('account.orders.track', ['orderId' => $id]);
+});
+
+Route::get('/orders/{id}/reorder', function ($id) {
+    return view('account.orders.reorder', ['orderId' => $id]);
+});
+
+Route::get('/favorites', function () {
+    return view('account.favorites');
+});
+
+Route::get('/account/addresses', function () {
+    return view('account.addresses');
+});
+
+Route::get('/account/payment', function () {
+    return view('account.payment');
+});
+
+Route::get('/account/settings', function () {
+    return view('account.settings');
+});

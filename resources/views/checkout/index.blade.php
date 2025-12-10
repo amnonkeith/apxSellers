@@ -184,7 +184,7 @@
             </div>
           </div>
 
-          <button onclick="placeOrder()" class="w-full bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl mb-4">
+          <button onclick="placeOrder()" class="w-full bg-linear-to-r from-emerald-500 to-emerald-600 text-white px-6 py-4 rounded-lg font-semibold hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl mb-4">
             <i class="fas fa-lock mr-2"></i>Place Order
           </button>
 

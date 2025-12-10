@@ -15,73 +15,73 @@
              <ul class="divide-y divide-slate-100 overflow-y-auto flex-1 px-0 scrollbar-thin scrollbar-thumb-blue-100 scrollbar-track-white/70">
                <li>
                  <a href="/products?category=brakes" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-car-crash text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Brakes</span>
-                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500 text-base"></i>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Brakes</span>
+                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products?category=engine" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-cog text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Engine</span>
-                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500 text-base"></i>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Engine</span>
+                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products?category=electrical" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-bolt text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Electrical</span>
-                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500 text-base"></i>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Electrical</span>
+                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products?category=suspension" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-compress-arrows-alt text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Suspension</span>
-                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500 text-base"></i>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Suspension</span>
+                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products?category=wheels" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-circle-notch text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Wheels</span>
-                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500 text-base"></i>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Wheels</span>
+                   <i class="fas fa-chevron-right text-blue-600/40 group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products?category=exhaust" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-smoking text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Exhaust</span>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Exhaust</span>
                    <i class="fas fa-chevron-right text-blue-600/40 group-hover:text-emerald-600 text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products?category=body" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-none">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-car-side text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent group-hover:text-slate-500">Body Parts</span>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-400 group-hover:to-blue-600 group-hover:bg-clip-text group-hover:text-transparent">Body Parts</span>
                    <i class="fas fa-chevron-right text-blue-600/40 group-hover:text-emerald-600 text-base"></i>
                  </a>
                </li>
                <li>
                  <a href="/products" class="flex items-center gap-3 px-4 py-2.5 transition group hover:bg-blue-50/80 focus:outline-none focus:bg-blue-50 rounded-b-2xl">
-                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 flex-shrink-0">
+                   <span class="flex items-center justify-center w-9 h-9 bg-blue-50/70 rounded-lg transition group-hover:scale-110 shrink-0">
                      <i class="fas fa-th-large text-blue-700 text-base"></i>
                    </span>
-                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-blue-700 group-hover:bg-clip-text group-hover:text-transparent">View All</span>
+                   <span class="flex-1 text-slate-900 text-[1rem] font-semibold group-hover:bg-linear-to-r group-hover:from-blue-500 group-hover:to-blue-700 group-hover:bg-clip-text group-hover:text-transparent">View All</span>
                    <i class="fas fa-chevron-right text-blue-600/40 group-hover:text-emerald-600 text-base"></i>
                  </a>
                </li>
@@ -180,7 +180,7 @@
           <h2 class="text-2xl font-bold text-slate-900">Today's Deals</h2>
           <span class="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded">Limited Time</span>
         </div>
-        <a href="/deals" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/deals" class="bg-linear-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           See all deals <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>
@@ -293,7 +293,7 @@
     <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">Best Sellers in Auto Parts</h2>
-        <a href="/products/bestsellers" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/products/bestsellers" class="bg-linear-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           View more <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>
@@ -382,7 +382,7 @@
     <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">New Arrivals in Auto Parts</h2>
-        <a href="/products/new-arrivals" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/products/new-arrivals" class="bg-linear-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           View more <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>
@@ -469,7 +469,7 @@
     <div class="px-4 sm:px-6 lg:px-14 py-8">
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-2xl font-bold text-slate-900">Customers who viewed this item also viewed</h2>
-        <a href="/products/recommended" class="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
+        <a href="/products/recommended" class="bg-linear-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent hover:from-blue-600 hover:to-blue-800 text-sm font-semibold">
           View more <i class="fas fa-chevron-right ml-1 text-xs"></i>
         </a>
       </div>

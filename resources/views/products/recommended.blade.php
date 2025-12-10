@@ -1,6 +1,6 @@
 <x-client-layout title="Recommended Products - AutoPartsX">
   <!-- Hero Section -->
-  <div class="bg-gradient-to-r from-blue-100 via-blue-50 to-emerald-50 border-b border-blue-200/70 py-14 shadow-sm">
+  <div class="bg-linear-to-r from-blue-100 via-blue-50 to-emerald-50 border-b border-blue-200/70 py-14 shadow-sm">
     <div class="px-4 sm:px-6 lg:px-12 relative flex flex-col items-start">
       <div class="flex items-center gap-4 mb-2">
         <span class="inline-block rounded-full bg-blue-500/10 px-3 py-1 text-blue-600 font-semibold text-xs drop-shadow">
@@ -123,7 +123,7 @@
           </div>
 
           <!-- Clear Filters -->
-          <button class="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
+          <button class="w-full bg-linear-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all font-semibold text-sm">
             <i class="fas fa-redo mr-2"></i>Clear Filters
           </button>
         </div>
@@ -288,7 +288,7 @@
             <button class="px-4 py-2 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors">
               <i class="fas fa-chevron-left"></i>
             </button>
-            <button class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg">1</button>
+            <button class="px-4 py-2 bg-linear-to-r from-blue-500 to-blue-600 text-white rounded-lg">1</button>
             <button class="px-4 py-2 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors">2</button>
             <button class="px-4 py-2 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors">3</button>
             <span class="px-4 py-2 text-slate-500">...</span>
